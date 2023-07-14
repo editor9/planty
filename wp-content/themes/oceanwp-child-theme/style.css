@@ -1,0 +1,712 @@
+/*
+Theme Name: Planty Vitrine Theme
+Theme URI: https://oceanwp.org/
+Description: Planty Vitrine based on oceanwp Theme.
+Author: Elie Akiki
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+ 
+
+/********************************** Nav bar *****************************/
+
+#site-logo #site-logo-inner img {
+	padding-left: 6px;
+}
+
+.custom-logo-link:focus,
+.custom-logo-link:active {
+  outline: none !important;
+}
+
+.menu-item .menu-link:hover {
+	color: black !important;
+}
+  
+.menu-item .menu-link:focus,
+.menu-item .menu-link:active {
+	outline: none !important;
+}
+  
+ul#menu-menu.main-menu {
+	display: flex;
+}
+
+#menu-item-14 {
+	background-color: #DC9F96;
+	order: 3;
+}
+
+#menu-menu li#menu-item-14 > a.menu-link > .text-wrap {
+	font-family: 'Syne';
+	font-weight: 700;
+	color:white !important;
+	padding: 0 45px;
+}
+
+#menu-menu li#menu-item-663 > a.menu-link > .text-wrap {
+    padding: 44px;
+}
+
+/*********************************** General ****************************/
+
+body {
+	background-color: #ECE2DA !important;	 
+}
+p {
+	margin: 0px;
+}
+
+/*********************************** Mentions Legales ****************************/
+
+.mentionlegale {
+	margin: -50px 0 174px 60px !important;	 
+}
+
+/*********************************** Home *******************************/
+
+#main #content-wrap {
+	padding-bottom: 0;
+  	padding-top: 160px !important;
+}
+.cequilsgalery {
+	max-width: 1230px !important;
+	margin: auto !important;	
+}
+
+.canette::before,
+.canette::after {
+  	content: "";
+  	position: absolute;
+  	top: 0;
+  	bottom: -88px;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	z-index: -1;
+}
+
+.canette {
+	position: relative;
+	z-index: 1;
+}
+
+.canette::before {
+	left: calc(50% - 372px); 
+	width: 385px; 
+	background-image: url("http://localhost:81/planty/wp-content/uploads/2023/07/Group-4.png");
+}
+
+.canette::after {
+	right: calc(50% - 364px); 
+	width: 385px; 
+	background-image: url("http://localhost:81/planty/wp-content/uploads/2023/07/Group-3.png");
+}
+
+.canette img {
+	padding-top: 24px;
+}
+
+.background-image-container {
+	background-image: url("http://localhost:81/planty/wp-content/uploads/2023/07/svgimg.png");
+  	height: 415px;
+  	width: 100%;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	margin-top: -16px;
+}
+
+#enpresent {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 36px;
+  	padding-top:140px;
+  	padding-bottom: 60px;
+}
+
+#lenergie {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+  	padding-top: 140px;
+  	padding-bottom: 20px;
+}
+
+#planty2.has-text-align-center {
+	font-family: 'Syne';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.planty {
+	font-family: 'Syne';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#planty2.has-text-align-center {
+	margin-bottom: 44px;
+	margin-top: 0px;
+}
+
+#lesgouts {
+	font-weight: 800;
+	font-size: 30px !important;
+	line-height: 36px !important;
+  	padding-top: 60px;
+  	margin-bottom: 0px;
+}
+
+figure.wp-block-gallery img {
+	border-radius: 0;
+}
+
+.image-gallery.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+	top: 46%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	text-align: center;
+	color: #ffffff; 
+	font-family: 'Syne';
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 58px;
+	background: none;
+	margin: auto;
+	bottom: auto;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image {
+	padding: 0px 12px 32px 10px;
+}
+
+.image-gallery {
+	justify-content: center; 
+   	align-items: center;
+   	margin: 0 auto;
+   	max-width: 860px;
+  	padding-bottom: 30px;
+}
+
+#commander {
+	position: relative;
+	width: 198px;
+	font-family: 'Syne';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 37px;
+	z-index: 2;
+	margin-bottom: 45px;
+  	margin-top: -16px;
+}
+
+.wp-block-button__link:hover {
+  color: white;
+}
+
+.image-over-foot  {
+	background-image: url("data:image/svg+xml,%3Csvg width='1440' height='680' viewBox='0 0 1440 680' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0C0 0 5 10 722.5 26C1440 10 1440 0 1440 0V680H0V0Z' fill='white'/%3E%3C/svg%3E");
+	height: 638px;
+	margin-top: -30px;
+	background-size: cover !important;
+	background-repeat: no-repeat no-repeat !important;
+	background-position: center;	
+}
+
+.favema {
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.typo {
+	font-family: 'Syne';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color: black;
+	letter-spacing: 0px;	
+}
+
+
+/**************************************** footer **********************************/
+
+.site-footer::before {
+	content: "";
+	height: 125px;
+	display: block; 	
+	background-image: url("http://localhost:81/planty/wp-content/uploads/2023/07/Group-8.png");
+  	width: 100%;
+  	position: absolute;
+	top: -125px;
+ 	background-size: cover;
+}
+
+#footer-bottom #footer-bottom-menu {
+	text-align: center !important;
+  	width: 100% !important;
+  	float:none !important;
+  	margin-bottom: 0 !important;	
+}
+
+/***************************************** Nous rencontrer *****************************/
+
+#menu-item-663 .menu-link .text-wrap:hover {
+  color: black;
+}
+
+#menu-item-663 .menu-link:focus,
+#menu-item-663 .menu-link:active {
+  outline: none !important;
+}
+
+#fleur {
+	position: absolute;
+	left: calc(4vw - 10px) !important;
+	top: calc(1vw - 135px) !important;
+	width: calc(20vw - 28px) !important;
+}
+
+#nrencontr {
+	margin-top: 76px !important;
+	font-family: 'Syne';
+	font-size: 38px;
+	font-weight: 800;
+	line-height: 46px;
+	margin-bottom: 35px !important;
+}
+
+.page-id-661 #main #content-wrap {
+	padding-top: 100px !important;
+}
+
+P.has-text-align-center.planty {
+	max-width: 680px;
+	margin: -20px auto 0 !important;
+}
+
+.lequip {
+	text-align: center;
+	padding-top: 30vh;
+	padding-bottom: 4vh;
+	position: relative;
+	font-family: Syne;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700; 
+}
+
+.lequip::before {
+	content: "";
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background-image: url("data:image/svg+xml,%3Csvg width='1440' height='554' viewBox='0 0 1440 554' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M-2 0C-2 0 3 76.0716 720.5 76.0716C1438 76.0716 1440 0 1440 0V554H-2V0Z' fill='white'/%3E%3C/svg%3E");
+	height: 554px;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#allphotos {
+	max-width: 1140px;
+	margin-left: 21vw;
+}  
+
+.wp-image-1588 {
+	width: 130px;
+	margin: 110px 0 45px 18px;
+}
+
+.typolequipe {
+	font-family: 'Syne';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 22px;
+}
+
+.page-id-661 #group-5 .forminator-label.forminator-repeater-label {
+	color: black !important;
+	font-size: 30px !important;
+	font-family: 'Syne' !important;
+	font-style: normal;
+	font-weight: 700 !important;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 0px;
+	padding-bottom: 32px;
+}
+
+.page-id-661 #group-5.nous-contacter {
+	max-width: 383px !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
+}
+
+.forminator-ui#forminator-module-1497.forminator-design--default .forminator-repeater-field {
+	background: none!important;
+	box-shadow: none!important;
+	padding: 0px;
+}
+
+.in-field-cont .forminator-label {
+	background-color: #ECE2DA !important;
+	padding-bottom: 6px !important;
+	font-family: 'Syne' !important;
+	font-style: normal !important;
+	font-weight: 400 !important;
+	font-size: 20px !important;
+	line-height: 24px !important;
+	color: black !important;
+}
+
+.forminator-ui#forminator-module-1497.forminator-design--default .forminator-input,
+.forminator-ui#forminator-module-1497.forminator-design--default .forminator-input:hover,
+.forminator-ui#forminator-module-1497.forminator-design--default .forminator-input:focus,
+.forminator-ui#forminator-module-1497.forminator-design--default .forminator-input:active {
+	background-color: white !important;
+	border-radius: 7px !important;
+	border: none;
+	padding: 22px;
+	margin-bottom: -13px;
+}
+
+.forminator-required {
+	display: none;
+}
+
+.forminator-ui#forminator-module-1497.forminator-design--default .forminator-input[name="text-1"] {
+	height: 237px;
+	resize: none;
+}
+
+#text-1 {
+	position: relative;
+}
+
+#text-1::before {
+	content: "";
+	background-image: url('http://localhost:81/planty/wp-content/uploads/2023/07/Group-16.png');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	position: absolute;
+	width: 137px;
+	height: 161px;
+	left: -72px;
+	bottom: -72px;
+	z-index: -1;
+}
+
+.page-id-661 .but-comand {
+	margin-bottom: 174px !important;
+	margin-top: 7px !important;
+}
+
+/**************************************** Commander ******************************/
+
+.commander-page #main {
+    background-color: #3B8E46 !important;
+}
+
+#pcommander {
+	padding-bottom: 40px !important;	
+}
+
+.has-large-font-size  {
+	font-family: 'Syne';
+	font-size: 38px !important;
+	font-weight: 800;
+	line-height: 46px;
+} 
+
+.page-id-12 #main #content-wrap {
+	padding-top:60px !important;
+}
+
+#linesep {
+	width: 75.5%; 
+	margin: 0 auto;
+	padding-bottom: 45px;
+}
+
+.vcommande {
+	padding-bottom: 24px;
+	margin-top: -22px;
+	padding-right:calc(72vw + -260px); 
+	font-family: Syne;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700; 
+}
+
+.qt-field[id*="number-"] {
+	position: absolute;
+	margin-top: 0px;
+}
+
+.number-buttons {
+	display: flex;
+	margin-left: 53px !important;
+	margin-top: 16px !important;
+}
+
+.number-buttons button {
+	border: none;
+	color: white;
+}
+
+.changeNumber {
+	display: flex;
+	flex-direction: column;
+	width: 11%;
+}
+
+.changeNumber button {
+	background: #E0B9B4;
+	color: white;
+	margin-left: -170%;
+}
+
+.plus {
+	border-radius: 0 5px 0 0;
+}
+
+.minus {
+	border-radius: 0 0 5px 0;
+	border-top: 1.5px solid #fff !important;
+}
+
+.ok {
+	background: #E0B9B4;
+	margin-left: 11%;
+	border-radius: 5px;
+	width: 79%;
+}
+
+#html-5.forminator-col  {
+	margin: -10px 0;
+}
+
+.forminator-ui#forminator-module-1309.forminator-design--default input[id*="number-"] {
+	height: 56px !important;
+	width: 24%;
+	margin-top: -6.9%;
+	border-radius: 5px 0 0 5px !important;
+	appearance: textfield;
+}
+
+div#group-5.forminator-col.vos-info > label.forminator-label,
+div#group-6.forminator-col.liv-rer > label.forminator-label {
+    font-family: 'Syne' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+	margin-bottom: 18px;
+} 
+
+.forminator-ui#forminator-module-1309.forminator-design--default .forminator-repeater-field {
+	background: none!important;
+	box-shadow: none!important;
+	padding: 0px;
+}
+
+.forminator-guttenberg {
+	width: 76% !important;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+  /* Elements html ajouter dans forminator */
+#html-7, #html-8, #html-9, #html-10 {
+	padding-left: 14%; 
+	margin-top: -61px;
+}
+
+#html-6 {
+	padding: 0px;
+	margin: -164px;
+}
+
+/*<hr> with id "vert1"*/
+hr#vert1 {
+	transform:rotate(90deg);
+   	margin-top: 410px !important;
+}
+
+.in-field {
+	height:105px;		
+}
+
+.forminator-ui#forminator-module-1309.forminator-design--default .forminator-label {
+	color:white !important;
+	font-family: 'Syne' !important;
+	font-style: normal !important;
+	font-weight: 400 !important;
+	font-size: 20px !important;
+}
+
+.forminator-ui#forminator-module-1309.forminator-design--default label[id*="number-"] {
+	display: none;
+}
+
+.forminator-row-last {
+	position: relative;
+}
+
+.forminator-ui#forminator-module-1309.forminator-design--default .forminator-repeater-action-link,
+.forminator-ui#forminator-module-1309.forminator-design--default .forminator-repeater-action-button {
+	display: none !important;
+}
+
+#html-5 .forminator-label,
+#html-6 .forminator-label,
+#html-7 .forminator-label,
+#html-8 .forminator-label,
+#html-9 .forminator-label,
+#html-10 .forminator-label,
+#group-1 .forminator-label,
+#group-2 .forminator-label,
+#group-3 .forminator-label,
+#group-4 .forminator-label {
+  	display: none !important;
+}
+
+.forminator-ui#forminator-module-1309.forminator-design--default .forminator-input {
+	height: 71px !important;
+	border-radius: 5px !important;
+	border: none !important;	
+}
+
+.but-comand {
+	width: 198px !important;
+	background-color: #E0B9B4 !important;
+	height: 54px !important;
+	border-radius: 7px !important;
+	margin-bottom: 60px !important;
+	right: calc(-34.7vw + 61px);
+	margin-top: 14px !important;
+}
+
+.page-id-12 .site-footer::before {
+	content: none;
+    height: 0;
+    display: none;
+}
+
+/********************************************** @media *******************************************/
+
+@media (max-width: 786px) and (min-width: 318px) {
+
+	/********************************** Planty ******************************/
+
+	#site-logo  {
+		margin-bottom: -80px !important;
+	}
+	#menu-menu li#menu-item-663 > a.menu-link > .text-wrap {
+		padding: 25px 20px;
+		height: 0px !important;
+		display: flex;
+	}
+
+	.has-large-font-size {
+		font-weight: 700 !important;
+		margin-bottom: -16vw;
+	}
+
+	#planty2.has-text-align-center {
+		margin-top: 3vw;
+	}
+	.wp-block-uagb-image.aligncenter img {
+		padding-top: calc(7.3vw + 78px);
+		width: calc(31.3vw + 78px);
+	}
+	.wp-block-uagb-image.aligncenter::before,
+	.wp-block-uagb-image.aligncenter::after {
+		background-size: calc(23.3vw + 78px);
+		bottom: -135px;
+	}
+
+	.wp-block-uagb-image.aligncenter::before {
+		left: calc(38.3vw - 236px);
+	}
+
+	.wp-block-uagb-image.aligncenter::after {
+		right: calc(38.3vw - 236px);
+	}
+
+	.image-gallery.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+		font-size: 5vw;
+		line-height: 6vw;
+	}
+
+	.cequilsgalery {
+		max-width: 320px !important;
+		margin: auto 0 !important;
+		flex-direction: column;
+	}
+
+	.image-over-foot {
+		height: calc(30vw + 876px) !important; 
+	}
+
+
+/************************************ Commander ******************************/
+
+	#pcommander {
+		padding-bottom: 20vw !important;
+	}
+
+	.forminator-ui#forminator-module-1309.forminator-design--default input[id*="number-"] {	
+		width: calc(11.3vw + 22px);
+		margin-top: calc(13.3vw + -61px);
+		appearance: textfield;
+	}
+	
+	.plus {
+		margin-top: 13.3vw;
+	
+	}
+	.ok {
+		margin-top: 13vw;
+	}
+
+	hr#vert1 {
+		border: none !important;
+	}
+
+	.but-comand {	
+		right: calc(-26.7vw + 55px);
+		margin-bottom: 0 !important;
+		margin-top: 14vw !important;
+	}
+}
+
+/************************************ Nous rencontrer **********************/
+
+@media (max-width: 810px) and (min-width: 318px) {
+#nrencontr {
+	font-weight: 700 !important;
+}
+
+.page-id-661 .but-comand {
+	margin-top: 16vw !important;
+}
+
+#allphotos {
+	margin: 0   auto;
+}
+}
